@@ -82,14 +82,17 @@ element.style {
     flex-direction: column;
 }
 
-
+.btn-social {
+    border: 2px solid #F2F2F2;
+}
 .login-modal #login-buttons:not(.hidden) button:last-of-type, .create-account #login-buttons:not(.hidden) button:last-of-type {
     margin-bottom: 0;
     border-radius: 30px;
 }
 
+.navigation-container {
 
-element.style {
+    margin-top: 20px;
 }
 .login-modal #login-buttons:not(.hidden) button:first-of-type, .create-account #login-buttons:not(.hidden) button:first-of-type {
     margin-top: 0;
@@ -102,3 +105,6 @@ element.style {
     background: white;
 }
 
+.login-modal #login-buttons:not(.hidden), .create-account #login-buttons:not(.hidden) {
+    width: 65%;
+}
