@@ -45,6 +45,18 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
   color: white;
 }
 
-.headerLink > a {
-  color: white;
+.d-header .title a, .d-header .title a:visited {
+    
+    color: white;
+}
+
+
+element.style {
+}
+.d-header .title a, .d-header .title a:visited {
+    color: var(--header_primary);
+    color: white;
+}
+.custom-header-links .headerLink a {
+    color: white;
 }
