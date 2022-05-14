@@ -108,3 +108,9 @@ element.style {
 .login-modal #login-buttons:not(.hidden), .create-account #login-buttons:not(.hidden) {
     width: 65%;
 }
+
+.d-modal.create-account .login-welcome-header, .d-modal.login-modal .login-welcome-header, .invites-show .login-welcome-header {
+    background-image: url(https://mereka.io/assets/imgs/MerekaLogo.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
