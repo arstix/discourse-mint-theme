@@ -75,3 +75,9 @@ element.style {
     background: #1A1623;
     margin: 0;
 }
+
+.login-modal:not(.hidden) .modal-body, .login-modal:not(.hidden) #credentials {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
