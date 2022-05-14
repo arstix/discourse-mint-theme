@@ -81,3 +81,9 @@ element.style {
     align-items: center;
     flex-direction: column;
 }
+
+
+.login-modal #login-buttons:not(.hidden) button:last-of-type, .create-account #login-buttons:not(.hidden) button:last-of-type {
+    margin-bottom: 0;
+    border-radius: 30px;
+}
