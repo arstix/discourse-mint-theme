@@ -143,3 +143,14 @@ element.style {
 .d-modal.create-account #login-buttons .btn, .d-modal.login-modal #login-buttons .btn, .invites-show #login-buttons .btn {
     height: 60px;
 }
+
+element.style {
+}
+.login-modal:not(.hidden) .login-left-side #credentials {
+    align-items: center;
+}
+.login-modal:not(.hidden) .login-left-side #credentials {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+}
