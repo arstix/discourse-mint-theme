@@ -122,3 +122,7 @@ element.style {
 .login-modal:not(.hidden) .login-left-side .login-welcome-header p.login-subheader {
     text-indent: -9999px;
 }
+
+.login-modal:not(.hidden) .login-left-side .login-welcome-header .login-title {
+    text-indent: -9999px;
+}
