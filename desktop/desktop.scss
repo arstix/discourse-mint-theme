@@ -113,6 +113,8 @@ element.style {
     background-image: url(https://mereka.io/assets/imgs/MerekaLogo.png);
     background-repeat: no-repeat;
     background-size: 200px;
+    margin-left: 18%;
+  background-color: white;
 }
 
 .d-modal.create-account .login-welcome-header .waving-hand, .d-modal.login-modal .login-welcome-header .waving-hand, .invites-show .login-welcome-header .waving-hand {
@@ -125,4 +127,12 @@ element.style {
 
 .login-modal:not(.hidden) .login-left-side .login-welcome-header .login-title {
     text-indent: -9999px;
+}
+
+.login-modal:not(.hidden) .login-left-side {
+    background: white;
+}
+
+.login-modal:not(.hidden) .login-left-side #credentials {
+    align-items: center;
 }
