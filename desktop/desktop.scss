@@ -154,3 +154,14 @@ element.style {
     flex-direction: column;
     align-items: center !important;
 }
+
+.d-modal.create-account .login-welcome-header .login-title {
+    text-indent: -9999px;
+}
+.d-modal.create-account .login-welcome-header p.login-subheader {
+    text-indent: -9999px;
+}
+
+.d-modal.create-account .has-alt-auth .create-account-form {
+    display:flex;
+}
